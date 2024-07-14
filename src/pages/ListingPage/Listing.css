@@ -1,0 +1,67 @@
+.listing-page-form-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .listing-page-add-book-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .listing-page-add-book-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .listing-page-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .listing-page-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .listing-page-form-group input,
+  .listing-page-form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .listing-page-form-group input[type="file"] {
+    padding: 0;
+  }
+  
+  .listing-page-form-group input[type="checkbox"] {
+    width: auto;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  button:hover:not(:disabled) {
+    background-color: #218838;
+  }
+  
